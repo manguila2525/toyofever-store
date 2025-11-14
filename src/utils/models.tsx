@@ -11,8 +11,8 @@
  import shirtFj40 from '../assets/Fj40/Fj40-CC/Crudo/fj40.png'
  import shirtFj40Front from '../assets/Fj40/Fj40-CC/Crudo/IMG_6385.png'
  import shirtFj40FrontBlack from '../assets/Fj40/Fj40-CC/Negro/IMG_6386.png'
- import shirtFjFrontSilver from '../assets/FJCruiser/FJCruiser-LC/Gris/IMG_6381.PNG'
- import shirtFjBackSilver from '../assets/FJCruiser/FJCruiser-LC/Gris/IMG_6382.PNG'
+ import shirtFjFrontSilver from '../assets/FJCruiser/FJCruiser-LC/Gris/IMG_6381.png'
+ import shirtFjBackSilver from '../assets/FJCruiser/FJCruiser-LC/Gris/IMG_6382.png'
 
 
 
@@ -22,6 +22,7 @@ import type { Category } from '../components/Header'
       model: 'Machito-01',
       title: 'Camisa Machito',
       category: 'machito' as Category, 
+      id: 1,
       products: [{
         id: '1',
         color: 'azul',
@@ -33,45 +34,53 @@ import type { Category } from '../components/Header'
         color: 'rosa',
         pictures: [camisa1, camisa2],
         sizes: ['S', 'M', 'L'],
-      }]
+      }],
+      price: 15
     },
     {
       model: 'Fj-01',
       title: 'Camisa Fj',
       category: 'fj' as Category, 
+      id:7,
       products: [{
         id: '3',
         color: 'marron',
         pictures: [camisa5, camisa6],
         sizes: ['S', 'L'],
-      }]
+      }],
+            price: 15
     },
     {
       model: 'Prado-01',
       title: 'Camisa Prado',
       category: 'prado' as Category, 
+      id: 2,
       products: [{
         id: '4',
         color: 'azul',
         pictures: [camisa7, camisa8],
         sizes: ['S', 'M', 'L', 'XL'],
-      }]
+      }],
+            price: 15
     },
     {
       model: 'Autana-01',
       title: 'Camisa Autana',
       category: 'autana' as Category, 
+      id: 3,
       products: [{
         id: '5',
         color: 'azul',
         pictures: [camisa9],
         sizes: ['S', 'M', 'L'],
-      }]
+      }],
+            price: 15
     },
     {
       model: 'FJ40-01',
       title: 'Camisa FJ40',
       category: 'fj40' as Category, 
+      id: 4,
       products: [{
         id: '6',
         color: 'beige',
@@ -83,17 +92,20 @@ import type { Category } from '../components/Header'
         color: 'negro',
         pictures: [shirtFj40FrontBlack],
         sizes: ['S', 'M', 'L'],
-      }]
+      }],
+            price: 15
     },
        {
       model: 'FJ-02',
       title: 'Camisa FJ',
       category: 'fj' as Category, 
+      id: 5,
       products: [{
         id: '7',
         color: 'gris',
         pictures: [shirtFjFrontSilver, shirtFjBackSilver],
         sizes: ['S', 'M', 'L'],
-      }]
+      }],
+            price: 15
     }
   ]
