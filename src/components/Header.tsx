@@ -1,6 +1,6 @@
 import { ChevronDownIcon,  PhoneIcon, MenuIcon, ShoppingCart, Shirt } from 'lucide-react'
 import { useState } from 'react'
-import logo from '../assets/Logo/toyofever.png'
+import logo from '../../public/assets/Logo/toyofever.png'
 import { Link } from 'react-router'
 
 export type Category = 'todos' | 'autana' | 'prado' | 'fj' | 'fj40' | 'machito'

@@ -2,8 +2,8 @@ import { useState } from "react"
 import { shirts } from "../../utils/models"
 import { Card } from "../Card"
 import type { Category } from "../Header"
-import videoClip from '../../assets/toyofeverRevelacion.mp4'
-import logo from '../../assets/Logo/toyofever.png'
+import videoClip from '../../../public/assets/toyofeverRevelacion.mp4'
+import logo from '../../../public/assets/Logo/toyofever.png'
 export const Dashboard = () => {
   const [selectedCategory] = useState<Category>('todos')
   const [searchTerm] = useState('')
