@@ -12,4 +12,5 @@ export const router = createBrowserRouter([
       { path: '/detail/:id', element: <Detail/>},
     ],
   },
+  
 ]);
